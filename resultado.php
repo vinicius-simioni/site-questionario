@@ -42,7 +42,7 @@ for($i = 0; $i < count($respostas); $i++){
 </div>
 
 <div class="h-auto w-80vw bg-white margin-auto br-10 mt-15 p-30 ta-center">
-    <h3>Você acertou <?php echo $acertos ?>/5 questões.</h3>
+    <h3><?php if(($acertos/5) == 1) {echo "Parabéns! ";} ?>Você acertou <?php echo $acertos ?>/5 questões.</h3>
 </div>
     
 </body>
