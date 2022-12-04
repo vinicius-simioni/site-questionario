@@ -16,16 +16,16 @@
     </div>
     
     <!-- Content -->
-    <form action="#" name="formquestao" onsubmit="return validar()">
+    <form action="resultado.php" name="formquestao" onsubmit="return validar()" method="POST">
         <div class="h-auto w-80vw bg-white margin-auto br-10 mt-15 p-30">
 
             <h3>1. Qual atributo muda a cor de fundo em CSS?</h3>
 
-            <div><input type="radio" name="q1" id="q1" value="A1" class="mt-15"> <p  class="inline ml-5">background-color</p></div>
-            <div><input type="radio" name="q1" id="q1" value="B1" class="mt-15"> <p  class="inline ml-5">color</p></div>
-            <div><input type="radio" name="q1" id="q1" value="C1" class="mt-15"> <p  class="inline ml-5">color-background</p></div>
-            <div><input type="radio" name="q1" id="q1" value="D1" class="mt-15"> <p  class="inline ml-5">background</p></div>
-            <div><input type="radio" name="q1" id="q1" value="E1" class="mt-15"> <p  class="inline ml-5">bg-color</p></div>
+            <div><input type="radio" name="q1" id="q1" value="A" class="mt-15"> <p  class="inline ml-5">background-color</p></div>
+            <div><input type="radio" name="q1" id="q1" value="B" class="mt-15"> <p  class="inline ml-5">color</p></div>
+            <div><input type="radio" name="q1" id="q1" value="C" class="mt-15"> <p  class="inline ml-5">color-background</p></div>
+            <div><input type="radio" name="q1" id="q1" value="D" class="mt-15"> <p  class="inline ml-5">background</p></div>
+            <div><input type="radio" name="q1" id="q1" value="E" class="mt-15"> <p  class="inline ml-5">bg-color</p></div>
 
         </div>
 
@@ -77,7 +77,10 @@
 
         </div>
 
-        <div class="flex align-items-center justify-content-center">
+
+
+        <div class="flex align-items-center justify-content-center flex-direction-column mt-15">
+            <p>Antes de responder, verifique se todos os itens estão marcados.</p>
             <button type="submit" class=" bt-5 btn-blue br-5 px-15  py-10 mt-15 mb-15" id="btn-enviar">Responder</button>
         </div>
 
