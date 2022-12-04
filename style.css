@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Height  ------------------------------------------------------------------------------------------------------------------------------*/
+.h-auto {
+    height: auto;
+}
+
+.h-50 {
+    height: 50px;
+}
+
+.h-300{
+    height: 300px;
+}
+
+.h-100vh {
+    height: 100vh;
+}
+
+
+/* Width */
+.w-100vw {
+    width: 100vw;
+}
+
+.w-80vw {
+    width: 80vw;
+}
+
+/* Background color  --------------------------------------------------------------------------------------------------------------------*/
+.bg-blue {
+    background-color: #0081cf;
+}
+
+.bg-whitesmoke {
+    background-color: whitesmoke;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+/* Display ------------------------------------------------------------------------------------------------------------------------------*/
+.flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.inline {
+    display: inline;
+}
+
+/* Margin */
+
+.margin-auto {
+    margin: auto;
+}
+
+/*Border style*/
+
+.br-5 {
+    border-radius: 5px;
+}
+
+.br-10 {
+    border-radius: 10px;
+}
+
+/* Margin -------------------------------------------------------------------------------------------------------------------------------*/
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+/* Padding ------------------------------------------------------------------------------------------------------------------------------*/
+
+.p-15 {
+    padding: 15px;
+}
+
+.p-30 {
+    padding: 30px;
+}
